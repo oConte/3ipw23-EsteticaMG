@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo&display=swap');
+body {
+    background-color: #f5f5f5;
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+}
+
+.content {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header img,
+header nav {
+    float: left;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 50px;
+}
+
+.social {
+    padding: 40px;
+    float: right;
+}
+
+nav ul li a {
+    color: #000;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hover {
+    transition: 0.3;
+    opacity: 1;
+}
+
+.hover:hover {
+    transition: 0.3;
+    opacity: 0.5;
+}
+.banner img{
+    width: 100%;
+    margin: 20px 0;
+}
+.texto{
+    width: 47%;
+    display: inline-block;
+    float: left;
+    text-align: justify;
+    padding-right: 25px;
+    line-height: 30px;
+    font-size: 25px;
+}
+.sobre h2{
+    font-weight: 900;
+    text-align:center;
+}
+.sobre img{
+    width: 50%;
+    display: inline-block;
+}
+.servicos {
+    background: #FFC905;
+    padding: 70px 0;
+    margin:50px 0 ;
+}
+.servico {
+    display: inline-block;
+    width: 31%;
+    margin: 1%;
+}
+.servico img{
+    border:2px solid #ffff;
+    width: 100%;
+}
+.titulo,.servicos h2 {
+    color: #fff;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-align: center;
+}
+.servicos h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.depoimentos h2{
+    color: #000;
+}
+
+.item{
+    display: inline-block;
+    width: 33%;
+    padding: 1%;
+    text-align: justify;
+}
+.item img{
+    width: 100px;
+    float: left;
+    margin-right: 15px;
+}
+
+.item .cliente {
+    padding-top: 45px;
+    margin-left: 10px;
+}
+
+.item p {
+    margin-bottom: 20px;
+}
